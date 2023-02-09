@@ -1,12 +1,9 @@
 <template>
   <div class="w-full default min-h-90">
-    <Navbar></Navbar>
     <div class="content">
 
     <slot></slot>
     </div>
-
-    <FooterComponent></FooterComponent>
   </div>
 </template>
 
